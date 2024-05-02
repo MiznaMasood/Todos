@@ -1,0 +1,67 @@
+*{
+    background-image: url(https://wallpapers.com/images/hd/pastel-pink-and-purple-dk896i2irmjs9vky.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+}
+
+#todoInput {
+    padding: 20px;
+    border-color:gray;
+    border-radius: 20px;
+   
+    background-color: rgb(164, 15, 164);
+}
+.but1{
+    background-color: plum ;
+    border-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.but2{
+    background-color: plum ;
+    border-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.edit{
+     
+    background-color: plum ;
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.del{
+    background-color: plum ;
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#list li{
+     color: blue;
+    text-align: center;
+    background-color:aqua;
+}
+
+#list ul{
+
+    text-align: center;
+}
+
+.head{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: purple;
+}
