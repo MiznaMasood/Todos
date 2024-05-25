@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Todo List</title>
-</head>
-<body>
-    <div style="text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-
-        <h1 class="head">Todo List</h1>
-
-        <input type="text" id="todoInput">
-        <br>
-        <button class="but1" onclick="addTodo()">Add Todo</button>
-        <button class="but2" onclick="deleteAll()">Delete All</button>
-    </div>
-
-    <div>
-        <ul id="list"></ul>
-    </div>
-
+    <link rel="shortcut icon" type="image/png" href="./icons8-microsoft-to-do-app-16.png">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
     
+    <title>To-do Appt</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="head">
+            To-do List
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_lubvFnhtE3nD9Ide9STCWrxwGM5eLpadxVkPbFntw&s" alt="logo">
+        </h1>
+        <p class="question">What's on your agenda today?</p>
+        <div class="input-group">
+            <input type="text" id="todoInput" placeholder="Enter your task...">
+            <button class="button add" onclick="addTodo()">Add Todo</button>
+            <button class="button delete-all" onclick="deleteAll()">Delete All</button>
+        </div>
+        <ul id="list" class="todo-list"></ul>
+    </div>
 
     <script src="app.js"></script>
-
 </body>
 </html>
